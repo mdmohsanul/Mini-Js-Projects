@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background:rgb(102, 47, 47);
+    font-size: 62.5%;
+}
+
+.header {
+    font-size: 2.5rem;
+    margin-left: 3rem;
+    padding: 2rem 3rem;
+}
+.projects{
+    width: 40%;
+    margin-left: 3rem;
+}
+.projects li{
+    list-style: none;
+    background-color: #fff;
+    padding: 1rem 2rem;
+   margin-bottom: 2rem;
+   border-radius: 1rem;
+   
+}
+
+.projects li a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #000;
+}
