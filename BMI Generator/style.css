@@ -27,6 +27,7 @@ form{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    gap: 1rem;
 }
 
 form label{
@@ -40,9 +41,8 @@ form input{
 form button{
     padding: 1rem;
     font-size: 2rem;
-    display: flex;
-    align-items: flex-end;
-    justify-items: flex-end;
+    display: inline;
+   
 }
 
 .error{
@@ -50,4 +50,13 @@ form button{
     display: inline;
     padding-left: 2rem;
     font-size: 1.5rem;
+}
+#reset{
+margin-right: 2rem;
+}
+
+#result{
+    font-size: 2rem;
+    color: rgb(238, 228, 228);
+    padding-top: 2rem;
 }
